@@ -1,2 +1,0 @@
-SConscript('gl2/SConscript')
-SConscript('gl3/SConscript')
