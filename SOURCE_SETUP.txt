@@ -9,7 +9,7 @@ REPO_NAME="Sleeping_TAG Repo"
 
 # A 2-4 letter prefix for storing auxillary port files (screenshots currently)
 # For example "xmpl"
-REPO_PREFIX="pmmv"
+REPO_PREFIX="slep"
 
 ## This is only required by PortMaster-New Repo.
 PMGUI_RELEASE=""
