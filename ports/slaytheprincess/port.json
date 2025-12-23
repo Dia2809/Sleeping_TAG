@@ -1,0 +1,33 @@
+{
+  "version": 4,
+  "name": "slaytheprincess.zip",
+  "items": [
+    "Slay the Princess.sh",
+    "slaytheprincess"
+  ],
+  "items_opt": [],
+  "attr": {
+    "title": "Slay the Princess",
+    "porter": [
+      "Damian2809"
+    ],
+    "desc": "Slay the Princess is a visual novel where you're tasked with killing a princess to save the world. She'll try to stop you using deception. Your choices impact the story, leading to different outcomes. The game is praised for its plot, visuals, and voice acting.",
+    "desc_md": null,
+    "inst": "Download the Steam Version of Slay the Spire. Copy the game folder on your sdcard into ports/slaytheprincess",
+    "inst_md": null,
+    "genres": [
+      "visual novel"
+    ],
+    "image": null,
+    "rtr": false,
+    "exp": false,
+    "runtime": [
+      "renpy_8.3.4.squashfs"
+    ],
+    "store": [],
+    "free": false,
+    "reqs": [],
+    "arch": [],
+    "min_glibc": ""
+  }
+}

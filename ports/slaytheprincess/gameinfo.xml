@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gameList>
+  <game>
+    <path>./Slay The Princess.sh</path>
+    <name>Slay The Princess</name>
+    <desc>Slay the Princess is a visual novel where you're tasked with killing a princess to save the world. She'll try to stop you using deception. Your choices impact the story, leading to different outcomes. The game is praised for its plot, visuals, and voice acting.</desc>
+    <releasedate>20230823T000000</releasedate>
+    <developer>Black Tabby Games</developer>
+    <publisher>Serenity Forge</publisher>
+    <genre>Visual Novel</genre>
+    <image>./slaytheprincess/screenshot.png</image>
+  </game>
+</gameList>

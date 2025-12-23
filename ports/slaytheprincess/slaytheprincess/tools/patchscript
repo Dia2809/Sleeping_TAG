@@ -1,0 +1,41 @@
+#!/bin/bash
+# Set GAMEDIR to the current directory and set logfile
+GAMEDIR="$PWD"
+LOGFILE="$GAMEDIR/patchlog.txt"
+PYTHON=$(which python3)
+# Redirect output and error to the log file
+exec > >(tee -a "$LOGFILE") 2>&1
+echo "GAMEDIR is set to: $GAMEDIR"
+
+# Exports
+export LD_LIBRARY_PATH="$GAMEDIR/lib:$GAMEDIR/tools/libs:$LD_LIBRARY_PATH"
+export PATH="$GAMEDIR/tools:$PATH"
+
+# Permissions
+chmod 666 /dev/uinput
+
+cd "$GAMEDIR"
+
+# Patch 
+if [ -f "game/archive.rpa" ]; then
+	$PYTHON -m unrpa -mp ./game game/archive.rpa
+else
+	echo " NO ARCHIVE.RPA FOUND "
+fi
+
+if [ -d "game/archive.rpa" ]; then
+	rm -r game/archive.rpa
+else
+	echo "Archive.rpa could not be deleted"
+fi
+
+
+
+if [ -d "game/tl" ]; then
+	rm -r game/tl
+else
+	echo "Translation files not found"
+fi
+
+# Completion message
+echo "Process completed successfully."
