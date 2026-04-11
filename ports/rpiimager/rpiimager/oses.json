@@ -1,0 +1,28 @@
+{
+  "sources": [
+    {
+      "id": "raspberrypi",
+      "name": "Raspberry Pi",
+      "catalog_url": "https://downloads.raspberrypi.org/os_list_imagingutility_v4.json",
+      "format": "rpi"
+    },
+    {
+      "id": "dietpi",
+      "name": "DietPi",
+      "catalog_url": "https://dietpi.com/downloads/images/dietpi-imager.json",
+      "format": "generic"
+    },
+    {
+      "id": "libreelec",
+      "name": "LibreELEC",
+      "catalog_url": "https://releases.libreelec.tv/os_list_imagingutility.json",
+      "format": "rpi"
+    },
+    {
+      "id": "lakka",
+      "name": "Lakka",
+      "catalog_url": "https://le-builds.lakka.tv/os_list.json",
+      "format": "generic"
+    }
+  ]
+}

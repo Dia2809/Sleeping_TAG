@@ -1,0 +1,31 @@
+{
+  "version": 4,
+  "name": "rpiimager.zip",
+  "items": [
+    "RPI Imager.sh",
+    "rpiimager"
+  ],
+  "items_opt": [],
+  "attr": {
+    "title": "RPI Imager",
+    "porter": [
+      "Dia"
+    ],
+    "desc": "A Raspberry Pi Imager-style tool with full gamepad controller support. Fetches OS catalogs live from the internet (Raspberry Pi, DietPi, LibreELEC, Lakka, and any source you add to oses.json), lets you pick an image from the list or browse for a local file, then downloads and flashes it to an SD card.",
+    "desc_md": null,
+    "inst": "Build the binary with 'make' inside ports/rpiimager/rpiimager/ (requires SDL2, SDL2_ttf, libcurl). The resulting 'rpiimager' binary must be placed at ports/rpiimager/rpiimager/rpiimager. Writing to block devices requires root (handled automatically by PortMaster's ESUDO).",
+    "inst_md": null,
+    "genres": [
+      "other"
+    ],
+    "image": null,
+    "rtr": false,
+    "exp": false,
+    "runtime": [],
+    "store": [],
+    "free": true,
+    "reqs": [],
+    "arch": [],
+    "min_glibc": ""
+  }
+}
